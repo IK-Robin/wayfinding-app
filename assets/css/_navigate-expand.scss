@@ -1,0 +1,128 @@
+.l_color1{
+    background-color: #FFD25C;
+}
+.l_color2{
+    background-color: #BAABFD;
+}
+.l_color3{
+    background-color: #F0AEB1;
+}
+
+.suggestions_container {
+    max-width: 346px;
+    margin: 0 auto;
+    
+    .suggestions_text{
+    font-size: 15px;
+    font-weight: 600;
+    color: #868782;
+    margin: 0 0 9px;
+  }
+  .suggestions_content {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    padding: 20px 13px;
+    border-radius:10px ;
+  
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+    .suggestion_items {
+      display: flex;
+      justify-self: flex-start;
+      align-items: center;
+      align-content: center;
+      padding-bottom: 24px;
+      border-bottom: 1px solid #EEEEEE;
+      margin-bottom: 7px;
+      gap: 14px;
+       .icon {
+        width: 36px;
+        height: 36px;
+         padding: 10px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+     .text{
+        h5{
+            font-size: 16px;
+        font-weight: 600;
+        color: #747474;
+        margin: 0;
+        }
+        span{
+            color: #868782;
+            font-size: 14px;
+        }
+     }
+    }
+    .suggestion_items:nth-last-child(1){
+        border-bottom: none;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+  
+  }
+  @media  screen and (min-width:370px) and (max-width:427px) {
+    
+  }
+  @media  screen and (min-width:300px) and (max-width:370px) {
+     .suggestions_content{
+        .suggestion_items {
+    
+                display: flex;
+                justify-self: flex-start;
+                padding-bottom: 18px;
+                border-bottom: 1px solid #EEEEEE;
+                margin-bottom: 7px;
+                gap: 14px;
+            
+                .suggestions_container .suggestions_content .suggestion_items .icon {
+                    width: 30px;
+                    height: 30px;
+                   
+                    padding: 4px;
+                }
+            .text span {
+                color: #868782;
+                font-size: 12px;
+            }
+         }
+     } 
+  }
+  @media  screen and (max-width:300px) {
+    .suggestions_content{
+        .suggestion_items {
+    
+                display: flex;
+                justify-self: flex-start;
+                padding-bottom: 18px;
+                border-bottom: 1px solid #EEEEEE;
+                margin-bottom: 7px;
+                gap: 14px;
+            
+                 .icon {
+                    width: 30px;
+                    height: 30px;
+                   
+                    padding: 4px;
+                }
+            .text{
+                h5{
+                    font-size: 14px;
+                }
+                span {
+                    color: #868782;
+                    font-size: 10px;
+                }
+            }
+         }
+     } 
+  }
+}

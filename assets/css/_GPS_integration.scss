@@ -1,0 +1,86 @@
+/*_GPS_integration*/
+
+.gps_integration_c{
+
+    .search_container{
+        margin-top: 60px;
+    }
+    .icon_div{
+        padding: 10px;
+    }
+
+   
+
+    #gps_integration{
+        .modal-content{
+          max-width: 400px;
+        margin:  auto;
+          border-radius: 20px;
+          -webkit-border-radius: 20px;
+          -moz-border-radius: 20px;
+          -ms-border-radius: 20px;
+          -o-border-radius: 20px;
+      }
+      }
+      .gps_integration{
+        .modal-dialog {
+          transform: none;
+          max-width: 400px;
+          margin: auto;
+          padding: 0 30px;
+        }
+      }
+      .gps_modal {
+        padding: 60px 42px;
+        .modal_img {
+          width: 80px;
+          height: 80px;
+          margin: 0 auto 28px;
+        }
+        .contents {
+          text-align: center;
+          h3 {
+            font-size: 20px;
+            margin-bottom: 27px;
+            font-weight: 700;
+          }
+      
+          p {
+            font-size: 14px;
+            margin-bottom: 27px;
+          }
+          a {
+            font-size: 18px;
+          }
+        }
+      }
+ 
+      @media screen  and (max-width:400px){
+       
+         .gps_integration{
+
+            .gps_modal {
+            
+                padding: 24px 20px;
+            
+            .contents{
+                h3 {
+                    font-size: 16px;
+                }
+                p {
+                    font-size: 14px;
+                }
+                a{
+                    font-size: 14px;
+                }
+            }
+        }
+        .modal-dialog{
+            padding: 0 15px;
+        }
+        }
+       
+       
+      }
+ 
+}

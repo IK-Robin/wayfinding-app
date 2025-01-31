@@ -1,0 +1,119 @@
+/* login css */
+$font_family: "Poppins", sans-serif;
+$google: #fff;
+$facebook: #0e70e3;
+$apple: #1c1c1c;
+
+.login {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+p {
+  color: #636365;
+}
+.login_section {
+  max-width: 428px;
+  width: 100%;
+  font-family: $font_family;
+  margin:10px auto 0 ;
+
+  .form_inp {
+    border: 1px solir #e3e2e2;
+    outline: none; // Remove the outline
+    box-shadow: none;
+    padding: 14px;
+  }
+  .or {
+    margin: 33px auto;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+  }
+  .login_option {
+    margin: 0 auto 36px;
+    text-align: center;
+    position: relative;
+    color:#636365;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: 15%;
+      transform: translate(-15%, -50%);
+      width: 89px;
+      height: .5px;
+  
+      -webkit-transform: translate(20%, -50%);
+      -moz-transform: translate(-15%, -50%);
+      -ms-transform: translate(-15%, -50%);
+      -o-transform: translate(-15%, -50%);
+      background-color:#636365;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 15%;
+      transform: translate(-15%, -15%);
+      width: 89px;
+      height: .5px;
+      -webkit-transform: translate(-15%, -15%);
+      -moz-transform: translate(-15%, -150%);
+      -ms-transform: translate(-15%, -150%);
+      -o-transform: translate(-15%, -150%);
+      background-color:#636365;
+    }
+  }
+
+  .login_options {
+    
+    width: 100%;
+    margin: 0 auto;
+
+    .optins_button {
+      display: flex;
+      width: 100%;
+      border: 1px solid #e1e1e1;
+      display: block;
+      padding: 18px 0;
+      text-align: center;
+      background-color: $google;
+      font-size: 16px;
+      margin-bottom: 12px;
+  
+    color: #1B1B1B;
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      -o-border-radius: 8px;
+      img{
+        width: 18px;
+        height: 18px;
+      }
+    }
+    .facebook{
+        background: $facebook;
+        color: #fff;
+    }
+    .apple{
+        background-color: $apple;
+        color: #fff;
+    }
+  }
+  .sign_up{
+    text-align: center;
+    text-decoration: none;
+    color:#5B5B5E;
+    display: block;
+    margin: 0 auto;
+    span{
+        color: #FF8C42;
+    }
+  }
+}
+
+
+
+
