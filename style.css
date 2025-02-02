@@ -1,7 +1,7 @@
 /*common css*/
 body,
 html {
-  height: 100%;
+  height: 100dvh;
   
   min-height: 100%;
 }
@@ -405,7 +405,7 @@ svg {
 }
 
 .startscreen_2 .search_section_top .enable-scrolly {
-  max-height: 70dhv;
+  max-height: 70dvh;
   overflow-y: scroll;
 
   /* Hide scrollbar for modern browsers */
