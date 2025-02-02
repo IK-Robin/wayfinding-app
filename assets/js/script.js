@@ -110,13 +110,13 @@ window.addEventListener("resize", () => {
   if (window.innerHeight < 250) {
     hide_searchsection.style.maxHeight = "30vh";
   } else if (window.innerHeight < 300) {
-    hide_searchsection.style.maxHeight = "40vh";
+    hide_searchsection.style.maxHeight = "40dvh";
   } else if (window.innerHeight < 500) {
-    hide_searchsection.style.maxHeight = "40vh";
+    hide_searchsection.style.maxHeight = "40dvh";
   } else if (window.innerHeight < 600) {
-    hide_searchsection.style.maxHeight = "50vh";
+    hide_searchsection.style.maxHeight = "60dvh";
   } else if (window.innerHeight < 700) {
-    hide_searchsection.style.maxHeight = "55vh";
+    hide_searchsection.style.maxHeight = "60dvh";
   } else {
     hide_searchsection.style.maxHeight = ""; // Reset max-height for larger windows
   }
